@@ -20,8 +20,6 @@ public class k_main {
 	
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		
-		
-		System.out.println("Èç¹ûÐÞ¸ÄÄØ£¿");
 		Configuration conf=new Configuration();
 		Job job=new Job(conf, "hello wd");
 		job.setJarByClass(k_main.class);
